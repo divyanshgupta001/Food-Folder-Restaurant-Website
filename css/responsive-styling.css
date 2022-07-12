@@ -1,0 +1,124 @@
+@media screen and (min-width: 800px) and (max-width: 1250px)  {
+    html{
+        font-size: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    html{
+        font-size: 30%;
+    }
+    body{
+        background: url('../img/phone-bg.png')   ;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: right;
+        justify-content: right;
+    }
+    .navbar button{
+        display: none;
+    }
+    
+    .home1{
+        /* flex-wrap: wrap; */
+        font-size: 10%;
+        /* width: auto; 
+         height: 100vh; */
+    }   
+    .home1::before{
+        display: none;
+    }
+    .home2{
+        /* overflow: auto; */
+        flex-wrap: wrap;
+        font-weight: .1rem;
+    }   
+    .home3{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: colum;
+        text-align: center;
+        padding: 0%;
+
+    }   
+    .home3-img img{
+        /* border: 2rem solid green; */
+        width: 50%;
+        height: 50%;
+    }
+    .home4 {
+        margin-top: 200px;
+
+    }   
+    .home4 .home4-content2-1{
+        /* flex-wrap: wrap; */
+        align-items: center;
+        flex-direction: column;
+    }   
+    .home4 .home4-content2-2{
+        align-items: center;
+        flex-direction: column;
+        
+        /* flex-wrap: wrap; */
+    }   
+    .home5{
+        flex-wrap: wrap;
+    }   
+    .home5 .home5-box-img img{
+            width: 50%;
+            height: 50%;
+        }
+    .home6{
+         /* width: 100%; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -20px;
+        height: 0%;
+    }   
+    .home6::before{
+        
+        display: none;
+    } 
+    .home6 h2{
+        
+        
+        color: black;
+        font-family: var(--high-stylish-theme-font-family);
+        
+    }  
+     .home6 .home6-content img{
+         display: none;
+        }
+        .home6 .home6-content .home6-content2{
+            width: 100%;
+            height: auto;
+            border: 2px solid red;
+        }
+        footer{
+            /* margin-top: -372px; */
+            /* align-items: center;
+            justify-content: center; */
+        /* flex-direction: column; */
+        margin-bottom: 0px;
+    }
+    footer .footer-p{
+        display: none;
+    }
+    footer #copyright{
+        display: none;
+    }
+    footer #designby{
+        margin-top: 10px;
+        font-size: 6.0rem;
+        color: yellowgreen;
+    }
+}
