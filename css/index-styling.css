@@ -22,10 +22,13 @@ html{
     /* border: 1rem solid red; */
     height: 7.0rem;
     background-color: var(--theme-colour);
-    padding-top: 30px ;
-    padding-left: 30px ;
+align-items: center;
     display: flex;
+     position: fixed;
+    top: 0px;
+    width: 100%; 
 }
+
 
 
 .navbar button{
