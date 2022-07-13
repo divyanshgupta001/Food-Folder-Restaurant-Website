@@ -1,6 +1,6 @@
 @media screen and (min-width: 800px) and (max-width: 1250px)  {
     html{
-        font-size: 45%;
+        font-size: 35%;
     }
     
 }
@@ -10,17 +10,24 @@
     html{
         font-size: 30%;
     }
-    body{
-        background: url('../img/phone-bg.png')   ;
-    }
+    
     .navbar{
-        text-align: center;
+        position: fixed;
+    }
+    .home1{
+        height: 300px;
+    }
+    .home1:before{
+    background-image: url('../img/home1.png') ;
+    height: 180px;
+    width: 100px;
+
     }
     .navbar ul{
         display: flex;
         flex-wrap: wrap;
-        align-items: right;
-        justify-content: right;
+        align-items: center;
+        justify-content: center;
     }
     .navbar button{
         display: none;
@@ -29,11 +36,12 @@
     .home1{
         /* flex-wrap: wrap; */
         font-size: 10%;
-        /* width: auto; 
-         height: 100vh; */
+     
+         height: 100%;
     }   
     .home1::before{
-        display: none;
+         height: 50vh;
+        width: 100%;
     }
     .home2{
         /* overflow: auto; */
@@ -47,6 +55,7 @@
         flex-direction: colum;
         text-align: center;
         padding: 0%;
+        margin: 23px;
 
     }   
     .home3-img img{
@@ -63,11 +72,22 @@
         align-items: center;
         flex-direction: column;
     }   
+     .home4 .home4-content2-1 img{
+        /* flex-wrap: wrap; */
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+    }   
     .home4 .home4-content2-2{
         align-items: center;
         flex-direction: column;
         
         /* flex-wrap: wrap; */
+    }  
+     .home4 .home4-content2-2 img{
+        margin: 10px;
+        height: 200px;
+        width: 200px;
     }   
     .home5{
         flex-wrap: wrap;
@@ -81,12 +101,12 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-top: -20px;
+        margin-top: -50px;
         height: 0%;
     }   
     .home6::before{
         
-        display: none;
+        height: 55%
     } 
     .home6 h2{
         
@@ -101,7 +121,7 @@
         .home6 .home6-content .home6-content2{
             width: 100%;
             height: auto;
-            border: 2px solid red;
+            border: 2px solid black;
         }
         footer{
             /* margin-top: -372px; */
