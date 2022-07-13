@@ -83,7 +83,18 @@ align-items: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin-top: 11.9rem; */
+    margin-top: 11.9rem;
+    position: relative;;
+}
+
+.home1::before{
+    content: '';
+    background-image: url('../img/home1.png') ;
+    position: absolute;
+    /* top: 70px; */
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
 }
 /* LOGO STARTS HERE */
 
@@ -104,15 +115,7 @@ align-items: center;
     width: 15.5rem;
 }
 /* LOGO ENDS HERE */
-.home1::before{
-    content: '';
-    background-image: url('../img/home1.png') ;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-    /* opacity: 0.7; */
-}
+
 .home1 h2{
     font-size: 6.3rem;
     color: var(--theme-colour);
