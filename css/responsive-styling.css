@@ -10,9 +10,9 @@
     html{
         font-size: 30%;
     }
-    /* body{
+    body{
         background: url('../img/phone-bg.png')   ;
-    } */
+    }
     .navbar{
         position: fixed;
         display: flex;
