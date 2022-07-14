@@ -15,12 +15,16 @@
     } */
     .navbar{
         position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .home1{
         height: 300px;
     }
     .home1:before{
-    background-image: url('../img/home1.png') ;
+    background-image: url('../img/home1.png');
     height: 180px;
     width: 100px;
 
@@ -31,9 +35,9 @@
         align-items: center;
         justify-content: center;
     }
-    /* .navbar button{
+    .navbar button{
         display: none;
-    } */
+    }
     
     .home1{
         /* flex-wrap: wrap; */
@@ -93,8 +97,8 @@
         flex-wrap: wrap;
     }   
     .home5 .home5-box-img img{
-            width: 50%;
-            height: 50%;
+            width: 40%;
+            height: 40%;
         }
     .home6{
          /* width: 100%; */
@@ -105,7 +109,7 @@
         height: 0%;
     }   
     .home6::before{
-        height: 55%;
+        height: 60%;
         /* display: none; */
     } 
     .home6 h2{
